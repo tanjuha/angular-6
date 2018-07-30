@@ -1,0 +1,17 @@
+<div class="container">
+<div class="row">
+  <div class="col s12 m4" *ngFor="let user of users">
+    <div class="card" >
+      <div class="card-image" >
+        <img src="https://s.tcdn.co/837/98f/83798fe7-d57e-300a-93fa-561e3027691e/29.png">
+        <span class="card-title">{{user.name}}</span>
+      </div>
+      <div class="card-content">
+        <p>Email - {{user.email}}</p>
+        <p>City - {{user.address.city}}</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
